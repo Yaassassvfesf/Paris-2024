@@ -57,6 +57,7 @@ p{
         max-width: 80%;
 
     }
+}
 
 .table-container{
     overflow-x: auto;
@@ -75,7 +76,7 @@ table {
 @media (max-width: 580px) {
     th, td{
         font-size: 14px;
-        padding: 6px;
+        padding: 6px
     }
 }
 
