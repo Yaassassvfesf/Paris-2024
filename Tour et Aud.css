@@ -50,6 +50,13 @@ p{
 
 }
 
+@media (max-width: 580px) {
+
+    #Audience{
+        max-width: 80%;
+    }
+}
+
 :root {
     box-sizing: border-box;
     margin: 0;
