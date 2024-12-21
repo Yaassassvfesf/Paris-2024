@@ -95,4 +95,10 @@ iframe{
     position: relative;
     z-index: 2;
 }
+
+@media (max-width: 580px) {
+    iframe{
+        max-width: 80%;
+    }
+}
   
