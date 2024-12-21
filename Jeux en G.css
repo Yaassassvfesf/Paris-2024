@@ -1,0 +1,129 @@
+.contenu1{
+    border-left: #518ded solid 40px;
+    border-right: #518ded solid 40px;
+    text-align: center;
+    position:relative;
+    background:
+       radial-gradient(200px at 100% 0, #518ded 6.25%, #ffffff 6.3% 18.75%, #518ded 18.8% 31.25%, #ffffff 31.3% 43.75%, #518ded 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+       radial-gradient(200px at 0 0, #518ded 6.25%, #ffffff 6.3% 18.75%, #518ded 18.8% 31.25%, #ffffff 31.3% 43.75%, #518ded 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+       radial-gradient(200px at 0 100%, #518ded 6.25%, #ffffff 6.3% 18.75%, #518ded 18.8% 31.25%, #ffffff 31.3% 43.75%, #518ded 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+       radial-gradient(200px at 100% 100%, #518ded 6.25%, #ffffff 6.3% 18.75%, #518ded 18.8% 31.25%, #ffffff 31.3% 43.75%, #518ded 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0) #518ded;
+    background-size: 200px 200px;
+    background-color: #518ded;;
+
+}
+
+.contenu1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1;
+
+}
+
+h2{
+    color:#518ded;
+    position: relative;
+    z-index: 2;
+    margin-top: 0%;
+
+}
+
+p{
+    font-size: large;
+    position: relative;
+    z-index: 2;
+
+}
+
+#Athletes{
+    max-width: 600px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 15%;
+    
+    
+
+}
+
+@media (max-width: 580px) {
+
+    #Athletes{
+        max-width: 80%;
+
+    }
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+th, td {
+    border: 1px solid #518ded;
+    padding: 8px;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #518ded6b;
+}
+
+#Or{
+    color: rgb(212, 180, 0);
+}
+
+#Argent{
+    color: rgb(165, 165, 165);
+}
+
+#Bronze{
+    color: rgb(149, 124, 70);
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.footer {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background-color:#518ded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+#footer text{
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+
+#Contacts{
+    font-style: normal;
+    color: black;
+}
+  
+  

@@ -1,0 +1,93 @@
+.contenu4{
+    border-left: #ed515e solid 40px;
+    border-right:#ed515e solid 40px;
+    text-align:center;
+    position: relative;
+    z-index: 2;
+    background:
+      radial-gradient(200px at 100% 0, #ed515e 6.25%, #ffffff 6.3% 18.75%, #ed515e 18.8% 31.25%, #ffffff 31.3% 43.75%, #ed515e 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+      radial-gradient(200px at 0 0, #ed515e 6.25%, #ffffff 6.3% 18.75%, #ed515e 18.8% 31.25%, #ffffff 31.3% 43.75%, #ed515e 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+      radial-gradient(200px at 0 100%, #ed515e 6.25%, #ffffff 6.3% 18.75%, #ed515e 18.8% 31.25%, #ffffff 31.3% 43.75%, #ed515e 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0),
+      radial-gradient(200px at 100% 100%, #ed515e 6.25%, #ffffff 6.3% 18.75%, #ed515e 18.8% 31.25%, #ffffff 31.3% 43.75%, #ed515e 43.8% 56.25%, #ffffff 56.3% 68.75%, #0000 0) #ed515e;
+    background-size: 200px 200px;
+    background-color: #ed515e;
+
+}
+
+.contenu4::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1;
+
+}
+
+h2{
+    color:#ed515e;
+    z-index: 2;
+    position: relative;
+
+}
+
+p{
+    font-size: large;
+    z-index: 2;
+    position: relative;
+
+}
+
+#Logistics{
+    max-width: 600px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 10%;
+
+}
+
+@media (max-width: 600px) {
+
+    #Logistics{
+        max-width: 80%;
+
+    }
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.footer {
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background-color:#ed515e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+#footer text{
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+
+#Contacts{
+    font-style: normal;
+    color: black;
+}
+
+
+  
+  

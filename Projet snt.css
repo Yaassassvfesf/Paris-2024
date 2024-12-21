@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+
+}
+
+.content{
+    margin-top: 0px;
+    background-position: center;
+    background-image: url(../paris\ 2024\ banner.jpg);
+    background-size: 100%;
+    background-repeat:repeat-x;
+    position: relative;
+}
+
+.content::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 1;
+
+
+}
+
+
+hgroup{
+    margin-top: 0px;
+
+
+}
+
+
+header{
+    border-bottom-style: solid;
+    border-width: 5px;
+    margin-top: 0px;
+
+}
+
+#t1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Silkscreen", sans-serif ;
+    margin-top: 0px;
+    padding-top: 70px;
+    color:rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    
+
+}
+
+#slogan{
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    top: 10px;
+    color:black;
+    position: relative;
+    z-index: 2;
+}
+
+nav{
+    text-align: center;
+    font-size: large;
+    border-top-style: solid;
+    border-top-width: 5px
+  }
+
+nav a{
+    padding: 10px 40px;
+    display:inline-block;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: white; 
+    background-color: black; 
+    border-radius: 5px; 
+    transform: scale(1.1);
+}
+
+h2{
+    font-size: 25px;
+    font-family: "Silkscreen", sans-serif
+
+
+}
+
+#page1{
+    color: #518ded;
+
+}
+
+#page2{
+    color: #545454;
+
+}
+
+#page3{
+    color: #ed515e;
+
+}
+
+#page4{
+    color: #3da336;
+
+}
+
+#page5{    
+    color: #edc651;
+
+}
+
+ul{
+    position: relative;
+    z-index: 2;
+    text-align:center;
+    list-style-position: inside;
+    padding: 0;
+
+}
+
+ul li{
+    text-align: center;
+    font-size: larger;
+
+}
+
+#Contacts{
+    text-decoration: underline;
+}
